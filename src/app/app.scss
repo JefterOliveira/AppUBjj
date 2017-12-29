@@ -1,6 +1,60 @@
 // http://ionicframework.com/docs/theming/
 
+.m-t-10 {
+    margin-top: 10px;
+}
+.m-t-20 {
+    margin-top: 20px;
+}
+.m-t-30 {
+    margin-top: 30px;
+}
+.m-t-50 {
+    margin-top: 50px;
+}
+.m-t-vh {
+    margin-top: 60vh;
+}
 
+.img-fundo {
+    position: absolute;
+    z-index: -1;
+}
+.circle {
+    border-radius: 20px;
+    width: 100%;
+    font-size: 15px
+}
+
+.login-text {
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #444444;
+}
+.form-circle {
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.85);
+}
+.enter-login {
+    background-color: rgba($color: #488aff, $alpha: 0.85)
+}
+.form-group {
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #444444;
+}
+.form-group a {
+    color: #FFCA00;
+}
+.form-label {
+    color: #fff;
+    text-shadow: 1px 1px 1px #444444;
+}
 // App Global Sass
 // --------------------------------------------------
 // Put style rules here that you want to apply globally. These
