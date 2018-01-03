@@ -15,7 +15,6 @@
 .m-t-vh {
     margin-top: 60vh;
 }
-
 .img-fundo {
     position: absolute;
     z-index: -1;
@@ -25,7 +24,24 @@
     width: 100%;
     font-size: 15px
 }
-
+.m-l-20 {
+    margin-left: 20px;
+    font-size: 2em;
+}
+.back-icon {
+    color: #fff;
+    font-size: 4em;
+    margin-left: 10px;
+    font-weight: bold;
+}
+button.btn-close-modal {
+    background: none;
+    font-size: 2em;
+    text-align: right;
+    float: right;
+    padding: 15px;
+    color: #CEC7C7;
+}
 .login-text {
         color: #fff;
         text-align: center;
@@ -50,10 +66,24 @@
 }
 .form-group a {
     color: #FFCA00;
+    font-weight: bold;
+}
+.form-group p {
+    font-size: 15px;
+}
+.form-group span {
+    font-weight: bold;
 }
 .form-label {
+    font-size: 15px;
     color: #fff;
     text-shadow: 1px 1px 1px #444444;
+}
+input.form-circle.m-t-10 {
+    color: #444;
+}
+::-webkit-input-placeholder {
+    color: #0E92B1;
 }
 // App Global Sass
 // --------------------------------------------------

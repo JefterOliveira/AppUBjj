@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { AddUserPage } from '../add-user/add-user';
+import { EsqueciDadosPage } from '../esqueci-dados/esqueci-dados';
 
 /**
  * Generated class for the LoginPage page.
@@ -17,9 +19,16 @@ export class LoginPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
+  EnterAddUser(){
+    this.navCtrl.push(AddUserPage);
+  }
 
+  EnterEsqueciDados(){
+    this.navCtrl.push(EsqueciDadosPage);
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad LoginPage');
   }
+
 
 }

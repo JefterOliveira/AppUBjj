@@ -18,28 +18,28 @@
     </ion-row> 
     <ion-row>
         <ion-col col-10 offset-1 class="form-group">
-            <label class="form-label" for="">Digite seu usuário agora</label>
+            <label class="form-label" for="">Digite seu usuário</label>
             <input class="form-circle m-t-10" type="text" placeholder=" Usuário">
         </ion-col>
         <ion-col col-10 offset-1 class="form-group">
             <label class="form-label" for="">Digite sua senha</label>
-            <input class="form-circle m-t-10" type="text" placeholder="******">
+            <input class="form-circle m-t-10" type="password" placeholder="******">
         </ion-col>
       </ion-row>
       <ion-row>
         <ion-col class="form-group">
-          <p>esqueceu sua senha, <a href="">clique aqui</a></p>
+          <p>esqueceu sua senha, <a href="#" (click)="EnterEsqueciDados()">clique aqui</a></p>
         </ion-col>
       </ion-row>
     <ion-row>            
       <ion-col col-10 offset-1 class="m-t-50">        
-        <button class="circle enter-login" ion-button>Entrar agora <ion-icon name="arrow-round-forward"></ion-icon></button>
+        <button class="circle enter-login" ion-button>Entrar agora <ion-icon class="m-l-20" name="arrow-round-forward"></ion-icon></button>
       </ion-col>
     </ion-row>
     <ion-row>
         <ion-col class="form-group">
-          <p>sou novo aqui, <a href="">quero me registrar</a></p>
-          <p>entrar com o facebook?</p>
+          <p>sou novo aqui, <a href="#" (click)="EnterAddUser()">quero me registrar</a></p>
+          <p> <span>entrar com o facebook?</span></p>
         </ion-col>
       </ion-row>
   </ion-grid> 

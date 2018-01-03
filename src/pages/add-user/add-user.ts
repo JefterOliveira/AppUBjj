@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { HomePage } from '../home/home';
 import { LoginPage } from '../login/login';
 
 /**
- * Generated class for the IntroPage page.
+ * Generated class for the AddUserPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -12,19 +11,19 @@ import { LoginPage } from '../login/login';
 
 @IonicPage()
 @Component({
-  selector: 'page-intro',
-  templateUrl: 'intro.html',
+  selector: 'page-add-user',
+  templateUrl: 'add-user.html',
 })
-export class IntroPage {
+export class AddUserPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
-  EnterPageLogin(){
-    this.navCtrl.push(LoginPage);
+  BackPage(){
+    this.navCtrl.pop(LoginPage);
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad IntroPage');
+    console.log('ionViewDidLoad AddUserPage');
   }
 
 }

@@ -12,6 +12,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { IntroPage } from '../pages/intro/intro';
 import { LoginPage } from '../pages/login/login';
+import { AddUserPage } from '../pages/add-user/add-user';
+import { EsqueciDadosPage } from '../pages/esqueci-dados/esqueci-dados';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { LoginPage } from '../pages/login/login';
     HomePage,
     TabsPage,
     IntroPage,
-    LoginPage
+    LoginPage,
+    AddUserPage,
+    EsqueciDadosPage
   ],
   imports: [
     BrowserModule,
@@ -35,7 +39,9 @@ import { LoginPage } from '../pages/login/login';
     HomePage,
     TabsPage,
     IntroPage,
-    LoginPage
+    LoginPage,
+    AddUserPage,
+    EsqueciDadosPage
   ],
   providers: [
     StatusBar,
