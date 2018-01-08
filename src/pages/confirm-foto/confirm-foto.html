@@ -6,21 +6,19 @@
 -->
 <ion-header>
   <ion-navbar>
-    <ion-title>Foto para o perfil</ion-title>
+    <ion-title></ion-title>
   </ion-navbar>
 </ion-header>
-<ion-content>
-  <ion-grid>
+<ion-content class="no-pd">
+  <ion-grid class="no-pd">
     <ion-row>
-      <ion-col col-12 class="confirm-img">
+      <ion-col col-12 class="confirm-img no-pd">
         <img src="../../assets/imgs/john.png" alt="">  
       </ion-col>
     </ion-row>
     <ion-row>
-      <ion-col col-4>
-          <div class="circle-lg">
-              <button class="circle enter-login">avançar</button>
-            </div>
+      <ion-col col-4 offset-4>
+        <button class="circle enter-login" ion-button (click)="EnterPageLogin()">avançar<ion-icon class="m-l-20" name="arrow-round-forward"></ion-icon></button>
       </ion-col>
     </ion-row>
   </ion-grid>
