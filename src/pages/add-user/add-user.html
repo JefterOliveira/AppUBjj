@@ -12,9 +12,9 @@
   <img class="img-fundo" src="../../assets/imgs/home.png" alt="">
   <ion-grid class="login-page">
     <ion-row>
-        <ion-col col-12>        
-            <ion-icon (click)="BackPage()" class="back-icon" name="arrow-round-back"></ion-icon>
-          </ion-col>
+      <ion-col col-12>        
+        <ion-icon (click)="BackPage()" class="back-icon" name="arrow-round-back"></ion-icon>
+      </ion-col>
     </ion-row>
     <ion-row>      
       <ion-col col-12>
@@ -23,21 +23,32 @@
     </ion-row> 
     <ion-row>
       <ion-col col-10 offset-1 class="form-group">
-        <label class="form-label" for="">escolha um nome de usuário</label>
         <input class="form-circle m-t-10" type="text" placeholder="digite aqui seu usuário">
       </ion-col>
       <ion-col col-10 offset-1 class="form-group">
-        <label class="form-label" for="">escolha uma senha segura</label>
         <input class="form-circle m-t-10" type="password" placeholder="digite aqui sua senha">
       </ion-col>
       <ion-col col-10 offset-1 class="form-group">
-        <label class="form-label" for="">escreva seu e-mail</label>
         <input class="form-circle m-t-10" type="text" placeholder="digite aqui seu e-mail">
       </ion-col>
+      <ion-col col-10 offset-1 class="form-group">
+        <label class="form-label" for=""></label>
+        <select class="form-circle m-t-10">
+          <option>escolha sua instituição</option>
+          <option>Hokutoryu</option>
+        </select> 
+      </ion-col>
+      <ion-col col-10 offset-1 class="form-group">
+          <label class="form-label" for=""></label>
+          <select class="form-circle m-t-10">
+            <option>informe sua graduação</option>
+            <option>Faixa Verde</option>
+          </select> 
+        </ion-col>
     </ion-row>
     <ion-row>            
       <ion-col col-10 offset-1 class="m-t-50">        
-        <button class="circle enter-login" ion-button>registrar agora <ion-icon class="m-l-20" name="arrow-round-forward"></ion-icon></button>
+        <button class="circle enter-login" (click)="EnterPageFoto()" ion-button>registrar agora <ion-icon class="m-l-20" name="arrow-round-forward"></ion-icon></button>
       </ion-col>
     </ion-row>
   </ion-grid> 

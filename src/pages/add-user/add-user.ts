@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { LoginPage } from '../login/login';
+import { FotoPerfilPage } from '../foto-perfil/foto-perfil';
 
 /**
  * Generated class for the AddUserPage page.
@@ -21,7 +22,9 @@ export class AddUserPage {
   BackPage(){
     this.navCtrl.pop(LoginPage);
   }
-
+  EnterPageFoto(){
+    this.navCtrl.push(FotoPerfilPage);
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad AddUserPage');
   }
