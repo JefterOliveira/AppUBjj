@@ -1,0 +1,52 @@
+page-modalfiltro {
+    text-align: center;
+    background-color: #fff;
+    
+    ion-icon.icon.icon-ios.ion-ios-funnel{
+        font-size: 5em;
+        border: solid 2px #0E92B1;;
+        padding: 20px;
+        margin: 0;
+        height: 97px;
+        padding-top: 12px;
+        border-radius: 95px;
+        margin-top: 10vh;
+        color: #0E92B1;
+    }
+    
+    .grid {
+        padding: 0;
+    }
+    hr {
+        width: 80%;
+        border: solid 0.5px #CEC7C7;
+        opacity: 0.5;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box; 
+    }
+    p.text-modal {
+        font-size: 1.5em;
+        padding: 20px;
+        margin:  0;
+        color:  #0E92B1;
+        font-weight:  200;
+    }
+    .enter-login {
+        background-color: #9AD26F;
+    }
+    .form-group {
+        text-align: left;
+        color: #0E92B1;
+    }
+    label.form-label.modal {
+        color: #0E92B1;
+        text-shadow: none;
+    }
+    input.form-modal {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #0E92B1;
+        padding-top: 10px;
+
+    }
+}

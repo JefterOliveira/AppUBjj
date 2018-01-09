@@ -1,0 +1,48 @@
+
+<ion-header>
+  
+  <ion-buttons>
+    <button class="btn-close-modal">      
+      <ion-icon name="close-circle" (click)="closeModal()"></ion-icon>
+    </button>
+  </ion-buttons>
+</ion-header>
+
+<ion-grid>
+  <ion-row>
+    <div class="bg-modal"></div>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <ion-icon name="funnel"></ion-icon>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <p class="text-modal">
+        Filtro de eventos
+      </p>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+      <ion-col col-10 offset-1 class="form-group">
+          <label class="form-label modal" for="">Nome do evento</label>
+          <input class="form-modal m-t-10" type="text" placeholder=" Ex. Campeonato Metropolitano">
+      </ion-col>
+      <ion-col col-10 offset-1 class="form-group m-t-30">
+          <label class="form-label modal" for="">Localização (Região ou Estado)</label>
+          <input class="form-modal m-t-10" type="text" placeholder="Ex. Região Sudeste">
+      </ion-col>
+      <ion-col col-10 offset-1 class="form-group m-t-30">
+          <label class="form-label modal" for="">Mês do Evento</label>
+          <input class="form-modal m-t-10" type="text" placeholder="Ex. Julho">
+      </ion-col>
+    </ion-row>
+  <ion-row>
+    <ion-col col-10 offset-1 class="m-t-30">
+      <button class="circle enter-login" ion-button>aplicar filtro</button>
+    </ion-col>
+    
+  </ion-row>
+</ion-grid>
+

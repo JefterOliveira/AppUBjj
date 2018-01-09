@@ -16,6 +16,9 @@ import { AddUserPage } from '../pages/add-user/add-user';
 import { EsqueciDadosPage } from '../pages/esqueci-dados/esqueci-dados';
 import { FotoPerfilPage } from '../pages/foto-perfil/foto-perfil';
 import { ConfirmFotoPage } from '../pages/confirm-foto/confirm-foto';
+import { AmigosPage } from '../pages/amigos/amigos';
+import { MensagensPage } from '../pages/mensagens/mensagens';
+import { PerfilPage } from '../pages/perfil/perfil';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,10 @@ import { ConfirmFotoPage } from '../pages/confirm-foto/confirm-foto';
     AddUserPage,
     EsqueciDadosPage,
     FotoPerfilPage,
-    ConfirmFotoPage
+    ConfirmFotoPage,
+    AmigosPage,
+    MensagensPage,
+    PerfilPage
   ],
   imports: [
     BrowserModule,
@@ -47,7 +53,10 @@ import { ConfirmFotoPage } from '../pages/confirm-foto/confirm-foto';
     AddUserPage,
     EsqueciDadosPage,
     FotoPerfilPage,
-    ConfirmFotoPage
+    ConfirmFotoPage,
+    AmigosPage,
+    MensagensPage,
+    PerfilPage
   ],
   providers: [
     StatusBar,

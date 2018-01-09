@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ModalController } from 'ionic-angular';
 
 /**
  * Generated class for the ConfirmFotoPage page.
@@ -15,8 +15,12 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class ConfirmFotoPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private modalCtrl:ModalController) {
   }
+  openModal(){
+    const modal= this.modalCtrl.create('ModalSucessPage');
+    modal.present();
+   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ConfirmFotoPage');

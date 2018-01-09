@@ -1,3 +1,51 @@
 page-home {
-
+    .img-fundo {
+        z-index: 0;
+    }
+    ion-col.filtrar-evento.col {
+        margin-top: 6vh;
+        padding: 11px;
+        color: #fff;
+        background: #0E92B1;
+    }
+    background-color: #fff;
+    .grid {
+        padding: 0;
+    }
+    ion-slides.main-slide.slides.slides-ios.slides-0 {
+        margin-top: 5vh;
+    }
+    .pd-r {
+        padding-right: 10px;
+    }
+    .card {
+        background-color:  #fff;
+        text-align: left;
+        width:  90%;
+        margin-left: 5%;
+        border-radius: 10px;
+        box-shadow: 0px 2px 6px #444444;
+        color: #707070;
+    }
+    .informacao-evento {
+        padding: 5px;
+    }
+    .button-ios {
+        height: 100%;
+    }
+    .titulo-evento {
+        font-weight: 300;
+        font-size: 20px;
+        margin: 0;
+    }
+    span.inscritos {
+        font-size:  12px;
+        background-color: #707070;
+        color: #fff;
+        padding:  3px;
+        border-radius:  20px;
+    }
+    .img-card {
+        width: 100%;
+    }
 }

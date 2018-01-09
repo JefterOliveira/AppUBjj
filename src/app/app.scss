@@ -1,5 +1,23 @@
 // http://ionicframework.com/docs/theming/
 
+/*ALINHAMENTOS*/
+.display-table {
+    display: table;
+    table-layout: auto;
+}
+.display-cell {
+    display: table-cell;
+    float: none;
+}
+.alignMiddle {
+    vertical-align: middle;
+}
+.alignTop {
+    vertical-align: top;
+}
+.alignBottom {
+    vertical-align: bottom;
+}
 .m-t-10 {
     margin-top: 10px;
 }
@@ -14,6 +32,9 @@
 }
 .m-t-vh {
     margin-top: 60vh;
+}
+.t-a-r {
+    text-align: left
 }
 .img-fundo {
     position: absolute;

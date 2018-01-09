@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { AddUserPage } from '../add-user/add-user';
 import { EsqueciDadosPage } from '../esqueci-dados/esqueci-dados';
+import { HomePage } from '../home/home';
+import { TabsPage } from '../tabs/tabs';
 
 /**
  * Generated class for the LoginPage page.
@@ -22,7 +24,9 @@ export class LoginPage {
   EnterAddUser(){
     this.navCtrl.push(AddUserPage);
   }
-
+  EnterPageTabs(){
+    this.navCtrl.push(TabsPage);
+  }
   EnterEsqueciDados(){
     this.navCtrl.push(EsqueciDadosPage);
   }

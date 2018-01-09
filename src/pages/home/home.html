@@ -1,17 +1,104 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>EVENTOS</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
-</ion-content>
+<ion-grid>
+  <img class="img-fundo" src="../../assets/imgs/Home.png" alt="">
+  <ion-row>
+    <ion-col class="filtrar-evento" (click)="openModal()">
+      <ion-icon class="pd-r" name="funnel"></ion-icon> Filtro de eventos
+    </ion-col>
+  </ion-row> 
+  <ion-row>
+    <ion-col>
+      <ion-slides class="main-slide">
+        <ion-slide>
+          <div class="card">
+            <img class="img-card" src="../../assets/imgs/rio-de-janeiro.png" alt="">
+            <div class="informacao-evento">
+              <ion-row>
+                <ion-col col-8>
+                  Rio de Janeiro - RJ
+                </ion-col>
+                <ion-col col-4>
+                  14/05/2018
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col>
+                  <h1 class="titulo-evento">1º BootCamp de Ju-Jitsu</h1>
+                </ion-col>
+              </ion-row>
+              <ion-row class="m-t-30">
+                <ion-col col-4>
+                  inscritos <span class="inscritos">46</span>
+                </ion-col>
+                <ion-col col-8>
+                  <button class="circle enter-login" ion-button>quero participar</button>
+                </ion-col>
+              </ion-row>
+            </div>
+          </div>
+        </ion-slide>
+        <ion-slide>
+          <div class="card">
+            <img class="img-card" src="../../assets/imgs/sao-paulo.png" alt="">
+            <div class="informacao-evento">
+              <ion-row>
+                <ion-col col-8>
+                  São Paulo
+                </ion-col>
+                <ion-col col-4>
+                  28/07/2018
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col>
+                  <h1 class="titulo-evento">Campeonato Metropolitano</h1>
+                </ion-col>
+              </ion-row>
+              <ion-row class="m-t-30">
+                <ion-col col-4>
+                  inscritos <span class="inscritos">57</span>
+                </ion-col>
+                <ion-col col-8>
+                  <button class="circle enter-login" ion-button>quero participar</button>
+                </ion-col>
+              </ion-row>
+            </div>
+          </div>
+        </ion-slide>
+        <ion-slide>
+          <div class="card">
+            <img class="img-card" src="../../assets/imgs/disney.png" alt="">
+            <div class="informacao-evento">
+              <ion-row>
+                <ion-col col-8>
+                  Minas Gerais
+                </ion-col>
+                <ion-col col-4>
+                  14/05/2018
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col>
+                  <h1 class="titulo-evento">1º BootCamp de Ju-Jitsu</h1>
+                </ion-col>
+              </ion-row>
+              <ion-row class="m-t-30">
+                <ion-col col-4>
+                  inscritos <span class="inscritos">46</span>
+                </ion-col>
+                <ion-col col-8>
+                  <button class="circle enter-login" ion-button>quero participar</button>
+                </ion-col>
+              </ion-row>
+            </div>
+          </div>
+        </ion-slide>
+      </ion-slides>
+    </ion-col>
+  </ion-row>
+</ion-grid>
