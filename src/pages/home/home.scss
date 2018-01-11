@@ -2,6 +2,9 @@ page-home {
     .img-fundo {
         z-index: 0;
     }
+    .center-align {
+        align-items: center;
+    }
     ion-col.filtrar-evento.col {
         margin-top: 6vh;
         padding: 11px;
@@ -13,7 +16,7 @@ page-home {
         padding: 0;
     }
     ion-slides.main-slide.slides.slides-ios.slides-0 {
-        margin-top: 5vh;
+        margin-top: 1vh;
     }
     .pd-r {
         padding-right: 10px;
@@ -27,8 +30,28 @@ page-home {
         box-shadow: 0px 2px 6px #444444;
         color: #707070;
     }
+    .img-card {
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+    }
     .informacao-evento {
         padding: 5px;
+    }
+    .informacao-evento p {
+        margin: 0;
+        font-size: 14px;
+        display: inline-block;
+    }
+    .divisor {
+        border-color: #fafafa;
+        border-top: 1px solid #cecece;
+    }
+    p .destaque {
+        display: block;
+        color: #444;
+        font-weight: bold;
+        font-size: 16px;
+        padding-bottom: 5px;
     }
     .button-ios {
         height: 100%;

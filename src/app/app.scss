@@ -18,6 +18,12 @@
 .alignBottom {
     vertical-align: bottom;
 }
+.alignLeft {
+    text-align: left;
+}
+.alignCenter {
+    text-align: center;
+}
 .m-t-10 {
     margin-top: 10px;
 }
@@ -49,11 +55,20 @@
     margin-left: 20px;
     font-size: 2em;
 }
+.card {
+    background-color:  #fff;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px #444444;
+    color: #707070;
+}
 .back-icon {
     color: #fff;
     font-size: 4em;
     margin-left: 10px;
     font-weight: bold;
+}
+.grid {
 }
 button.btn-close-modal {
     background: none;
@@ -64,10 +79,10 @@ button.btn-close-modal {
     color: #CEC7C7;
 }
 .login-text {
-        color: #fff;
-        text-align: center;
-        font-weight: bold;
-        text-shadow: 1px 1px 1px #444444;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #444444;
 }
 .form-circle {
     width: 100%;

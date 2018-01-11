@@ -1,0 +1,35 @@
+page-modalincricao {
+        text-align: center;
+        background-color: #fff;
+        
+        ion-icon.icon.icon-ios.ion-ios-contact{
+            font-size: 10em;
+            padding: 20px;
+            margin: 0;
+            height: 97px;
+            padding-top: 12px;
+            margin-top: 10vh;
+            color: #0E92B1;
+        }
+        
+        .grid {
+            padding: 0;
+        }
+        hr {
+            width: 80%;
+            border: solid 0.5px #CEC7C7;
+            opacity: 0.5;
+            -webkit-box-sizing: content-box;
+            box-sizing: content-box; 
+        }
+        p.text-modal {
+            font-size: 1.5em;
+            padding: 20px;
+            margin:  0;
+            color:  #0E92B1;
+            font-weight:  200;
+        }
+        .enter-login {
+            background-color: #9AD26F;
+        }
+}
