@@ -1,3 +1,99 @@
 page-amigos {
-
+    img.img-perfil.circle-perfil {
+        border-radius:  50%;
+        border: 3px solid #fff;
+        position:  absolute;
+        background-color: #fff;
+        margin-top: 12%;
+        left: 35%;
+        /* top: 25px; */
+    } 
+    .fundo-img {
+        background-color:  #0E92B1;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        text-align: center;
+        height:  100px;
+    }
+    .img-fundo {
+        z-index: 0;
+    }
+    .center-align {
+        align-items: center;
+    }
+    ion-col.filtrar-evento.col {
+        padding: 11px;
+        color: #fff;
+        background: #0E92B1;
+    }
+    .swiper-container.swiper-container-horizontal {
+        margin-top: 7vh;
+    }
+    background-color: #fff;
+    .grid {
+        padding: 0;
+    }
+    .pd-r {
+        padding-right: 10px;
+    }
+    .card {
+        background-color:  #fff;
+        text-align: left;
+        width:  90%;
+        margin-left: 5%;
+        border-radius: 10px;
+        box-shadow: 0px 2px 6px #444444;
+        color: #707070;
+    }
+    .img-card {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    hr {
+        border-right: 2px solid #cecece;
+        height:  50px;
+        width: 1px;
+    }
+    
+    .alignRight p {
+        display: inline-grid;
+        text-align:  center;
+        font-size: 14px;
+    } 
+    .alignLeft p {
+        display: inline-grid;
+        text-align:  center;
+        font-size: 14px;
+    }
+    span.destaque-card {
+        font-size: 20px;
+        color: #488aff;
+        font-weight: bold;
+    }
+    .button-ios {
+        height: 100%;
+    }
+    .info-perfil p {
+        font-size: 14px;
+    }
+    
+    p.instituicao {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .titulo-evento {
+        font-weight: 300;
+        font-size: 20px;
+        margin: 0;
+    }
+    span.inscritos {
+        font-size:  12px;
+        background-color: #707070;
+        color: #fff;
+        padding:  3px;
+        border-radius:  20px;
+    }
+    .img-card {
+        width: 100%;
+    }
 }

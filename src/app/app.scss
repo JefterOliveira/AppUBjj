@@ -24,6 +24,12 @@
 .alignCenter {
     text-align: center;
 }
+.alignRight {
+    text-align: right;
+}
+.alignLeft {
+    text-align: left;
+}
 .m-t-10 {
     margin-top: 10px;
 }
@@ -55,6 +61,9 @@
     margin-left: 20px;
     font-size: 2em;
 }
+ion-header.header.header-ios {
+    box-shadow: 1px 1px 6px #6e9055;
+}
 .card {
     background-color:  #fff;
     text-align: left;
@@ -62,13 +71,19 @@
     box-shadow: 0px 1px 3px #444444;
     color: #707070;
 }
+button.btn-card {
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #0E92B1;
+}
 .back-icon {
     color: #fff;
     font-size: 4em;
     margin-left: 10px;
     font-weight: bold;
-}
-.grid {
 }
 button.btn-close-modal {
     background: none;
