@@ -52,6 +52,11 @@
     position: absolute;
     z-index: -1;
 }
+.img-circle {
+    border-radius: 50%;
+    width: 64px;
+    border: 2px solid #cecece;
+}
 .circle {
     border-radius: 20px;
     width: 100%;
@@ -62,7 +67,7 @@
     font-size: 2em;
 }
 ion-header.header.header-ios {
-    box-shadow: 1px 1px 6px #6e9055;
+    box-shadow: 1px 1px 6px #666666;
 }
 .card {
     background-color:  #fff;
