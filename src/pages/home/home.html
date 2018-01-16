@@ -1,104 +1,27 @@
+<!--
+  Generated template for the InstituicaoPage page.
+  
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
 <ion-header>
-  <ion-navbar>
+  <ion-navbar class="toolbar toolbar-ios alignCenter">
+    
     <ion-title>EVENTOS</ion-title>
   </ion-navbar>
 </ion-header>
-
-<ion-grid>
-  <img class="img-fundo" src="../../assets/imgs/Home.png" alt="">
-  <ion-row>
-    <ion-col class="filtrar-evento" (click)="openModal()">
-      <ion-icon class="pd-r" name="funnel"></ion-icon> Filtro de eventos
-    </ion-col>
-  </ion-row> 
-  <ion-row>
-    <ion-col>
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col class="filtrar-evento" (click)="openModal()">
+        <ion-icon class="pd-r" name="funnel"></ion-icon> Filtro de eventos
+      </ion-col>
+    </ion-row>
+    <ion-row>
       <ion-slides class="main-slide">
-        <ion-slide>
-          <div class="card">
-            <img class="img-card"  onclick="document.getElementById('id1').style.color = 'red'" src="../../assets/imgs/rio-de-janeiro.png" alt="">
-            <div class="informacao-evento">
-              <ion-row>
-                <ion-col>
-                  <h1 class="titulo-evento">1º BootCamp de Ju-Jitsu</h1>
-                </ion-col>
-              </ion-row>
-              <ion-row>
-                <ion-col>
-                  <p>Rio de Janeiro - RJ </p> <br>
-                  <p>Endereço: Rua da Lapa, 86 - Lapa - RJ </p>
-                </ion-col>
-              </ion-row>
-              <ion-row>
-                <ion-col>
-                  <p>14/05/2018 </p> <br>
-                  <p>Horario: 09:00 as 18:00</p> <br>
-                  <p>Ingresso: R$ 0,00</p>
-                </ion-col>
-              </ion-row>
-              <hr class="divisor">
-              <ion-row>
-                <ion-col>
-                  <p><span class="destaque">Formato</span> BootCamp, interativo com tecnicas e palestras
-                    visando aumentar a integração e a participação
-                    dos praticantes da modalidade.</p>
-                  </ion-col>
-                </ion-row>
-                <ion-row class="m-t-30">
-                  <ion-col col-4>
-                    <p> inscritos</p> <span id="id1" class="inscritos">46</span>
-                  </ion-col>
-                  <ion-col col-8>
-                    <button class="circle enter-login" type="button" (click)="openModalInscricao()" ion-button>quero participar</button>
-                  </ion-col>
-                </ion-row>
-              </div>
-            </div>
-          </ion-slide>
           <ion-slide>
-            <div class="card">
-              <img class="img-card"  onclick="document.getElementById('id1').style.color = 'red'" src="../../assets/imgs/rio-de-janeiro.png" alt="">
-              <div class="informacao-evento">
-                <ion-row>
-                  <ion-col>
-                    <h1 class="titulo-evento">1º BootCamp de Ju-Jitsu</h1>
-                  </ion-col>
-                </ion-row>
-                <ion-row>
-                  <ion-col>
-                    <p>Rio de Janeiro - RJ </p> <br>
-                    <p>Endereço: Rua da Lapa, 86 - Lapa - RJ </p>
-                  </ion-col>
-                </ion-row>
-                <ion-row>
-                  <ion-col>
-                    <p>14/05/2018 </p> <br>
-                    <p>Horario: 09:00 as 18:00</p> <br>
-                    <p>Ingresso: R$ 0,00</p>
-                  </ion-col>
-                </ion-row>
-                <hr class="divisor">
-                <ion-row>
-                  <ion-col>
-                    <p><span class="destaque">Formato</span> BootCamp, interativo com tecnicas e palestras
-                      visando aumentar a integração e a participação
-                      dos praticantes da modalidade.</p>
-                    </ion-col>
-                  </ion-row>
-                  <ion-row class="m-t-30">
-                    <ion-col col-4>
-                      <p> inscritos</p> <span id="id1" class="inscritos">46</span>
-                    </ion-col>
-                    <ion-col col-8>
-                      <button class="circle enter-login" type="button" (click)="openModalInscricao()" ion-button>quero participar</button>
-                    </ion-col>
-                  </ion-row>
-                </div>
-              </div>
-            </ion-slide>
-            <ion-slide>
               <div class="card">
-                <img class="img-card"  onclick="document.getElementById('id1').style.color = 'red'" src="../../assets/imgs/rio-de-janeiro.png" alt="">
+                <img class="img-card" src="../../assets/imgs/rio-de-janeiro.png" alt="">
                 <div class="informacao-evento">
                   <ion-row>
                     <ion-col>
@@ -126,7 +49,7 @@
                         dos praticantes da modalidade.</p>
                       </ion-col>
                     </ion-row>
-                    <ion-row class="m-t-30">
+                    <ion-row>
                       <ion-col col-4>
                         <p> inscritos</p> <span id="id1" class="inscritos">46</span>
                       </ion-col>
@@ -137,8 +60,49 @@
                   </div>
                 </div>
               </ion-slide>
-            </ion-slides>
-          </ion-col>
-        </ion-row>
-      </ion-grid>
-      
+              <ion-slide>
+                  <div class="card">
+                    <img class="img-card" src="../../assets/imgs/sao-paulo.png" alt="">
+                    <div class="informacao-evento">
+                      <ion-row>
+                        <ion-col>
+                          <h1 class="titulo-evento">Campeonato Metropolitano</h1>
+                        </ion-col>
+                      </ion-row>
+                      <ion-row>
+                        <ion-col>
+                          <p>São Paulo - SP </p> <br>
+                          <p>Endereço: Rua da Lapa, 86 - Lapa - RJ </p>
+                        </ion-col>
+                      </ion-row>
+                      <ion-row>
+                        <ion-col>
+                          <p>14/05/2018 </p> <br>
+                          <p>Horario: 09:00 as 18:00</p> <br>
+                          <p>Ingresso: R$ 0,00</p>
+                        </ion-col>
+                      </ion-row>
+                      <hr class="divisor">
+                      <ion-row>
+                        <ion-col>
+                          <p><span class="destaque">Formato</span> BootCamp, interativo com tecnicas e palestras
+                            visando aumentar a integração e a participação
+                            dos praticantes da modalidade.</p>
+                          </ion-col>
+                        </ion-row>
+                        <ion-row>
+                          <ion-col col-4>
+                            <p> inscritos</p> <span id="id1" class="inscritos">46</span>
+                          </ion-col>
+                          <ion-col col-8>
+                            <button class="circle enter-login" type="button" (click)="openModalInscricao()" ion-button>quero participar</button>
+                          </ion-col>
+                        </ion-row>
+                      </div>
+                    </div>
+                  </ion-slide>
+        </ion-slides>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
+  

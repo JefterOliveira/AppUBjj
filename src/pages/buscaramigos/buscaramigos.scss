@@ -1,4 +1,5 @@
-page-mensagens {
+page-buscaramigos {
+    
     ion-content.content.content-ios {
         padding: 0;
         background-image: linear-gradient(to bottom, #fff, #fff);
@@ -6,22 +7,6 @@ page-mensagens {
     ion-content.content.content-md {
         padding: 0;
         background-image: linear-gradient(to bottom, #fff, #fff);
-    }
-    .toolbar-content.toolbar-content-ios {
-        text-align: right;
-        font-size: 25px;
-        padding-right: 15px;
-    }
-    .toolbar-content.toolbar-content-md {
-        text-align: right;
-        font-size: 25px;
-        padding-right: 15px;
-    }
-    ion-icon.icon.icon-md.ion-md-add-circle {
-        position: absolute;
-        top: 25%;
-        right: 5%;
-        color: #0E92B1;
     }
     .searchbar-ios {
         padding: 0 8px;
@@ -31,6 +16,16 @@ page-mensagens {
         background: #fff;
         border: 1px solid #cecece;
         border-radius: 20px;
+    }
+    .btn-add {
+        background-color: #fff;
+        color: #0E92B1;
+        font-weight: bold;
+        padding-top: 20px;
+    }
+    .grid h2 {
+        font-size: 15px;
+        color: #707070;
     }
     .nome-perfil {
         margin: 0;

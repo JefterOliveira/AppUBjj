@@ -19,6 +19,8 @@ import { ConfirmFotoPage } from '../pages/confirm-foto/confirm-foto';
 import { AmigosPage } from '../pages/amigos/amigos';
 import { MensagensPage } from '../pages/mensagens/mensagens';
 import { PerfilPage } from '../pages/perfil/perfil';
+import { InstituicaoPage } from '../pages/instituicao/instituicao';
+import { BuscaramigosPage } from '../pages/buscaramigos/buscaramigos';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { PerfilPage } from '../pages/perfil/perfil';
     ConfirmFotoPage,
     AmigosPage,
     MensagensPage,
-    PerfilPage
+    PerfilPage,
+    InstituicaoPage,
+    BuscaramigosPage
   ],
   imports: [
     BrowserModule,
@@ -56,7 +60,9 @@ import { PerfilPage } from '../pages/perfil/perfil';
     ConfirmFotoPage,
     AmigosPage,
     MensagensPage,
-    PerfilPage
+    PerfilPage,
+    InstituicaoPage,
+    BuscaramigosPage
   ],
   providers: [
     StatusBar,

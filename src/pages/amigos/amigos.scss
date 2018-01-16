@@ -27,7 +27,13 @@ page-amigos {
         background: #0E92B1;
     }
     .swiper-container.swiper-container-horizontal {
-        margin-top: 7vh;
+        margin-top: 5%;
+    }
+    .button-md {
+        height:25px;
+    }
+    .button-ios {
+        height: 100%;
     }
     background-color: #fff;
     .grid {
@@ -49,10 +55,10 @@ page-amigos {
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
     }
-    hr {
+    .divisor {
         border-right: 2px solid #cecece;
-        height:  50px;
-        width: 1px;
+        height: 80%;
+        display: inline-block;
     }
     
     .alignRight p {

@@ -52,6 +52,17 @@
     position: absolute;
     z-index: -1;
 }
+ion-content.content.content-ios {
+    padding: 0;
+    background-image: linear-gradient(to bottom, #9AD26F, #008CB7);
+}
+ion-content.content.content-md {
+    padding: 0;
+    background-image: linear-gradient(to bottom, #9AD26F, #008CB7);
+}
+.slide-zoom {
+    padding-bottom: 10px;
+}
 .img-circle {
     border-radius: 50%;
     width: 64px;
@@ -60,7 +71,7 @@
 .circle {
     border-radius: 20px;
     width: 100%;
-    font-size: 15px
+    font-size: 12px;
 }
 .m-l-20 {
     margin-left: 20px;

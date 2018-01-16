@@ -1,27 +1,17 @@
-page-home {
-    .img-fundo {
-        z-index: 0;
+page-instituicao {
+    ion-content.content.content-ios {
+        padding: 0;
+        background-image: linear-gradient(to bottom, #9AD26F, #008CB7);
+    }
+    .slide-zoom {
+        margin-top: 10%;
     }
     .center-align {
         align-items: center;
     }
-    ion-col.filtrar-evento.col {
-        padding: 11px;
-        color: #fff;
-        background: #0E92B1;
-    }
     background-color: #fff;
     .grid {
         padding: 0;
-    }
-    ion-slides.main-slide.slides.slides-ios.slides-0 {
-        margin-top: 20px;
-    }
-    .slides-md {
-        margin: 10px;
-    }
-    .button-md {
-        height:25px;
     }
     .pd-r {
         padding-right: 10px;
@@ -36,8 +26,20 @@ page-home {
         color: #707070;
     }
     .img-card {
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .sede-instituicao {
+        font-weight: bold;
+    }
+    a.link-card {
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        color: #707070;
+        display: block;
+        padding: 2px;
     }
     .informacao-evento {
         padding: 5px;
@@ -68,12 +70,19 @@ page-home {
     }
     span.inscritos {
         font-size:  12px;
-        background-color: #707070;
+        background-color: #0E92B1;
         color: #fff;
-        padding:  3px;
+        padding:  3px 5px;
         border-radius:  20px;
     }
+    .icon-card {
+        font-size: 18px;
+        color: #0E92B1
+    }
+    .btn-search {
+        background-color: #fff;
+    }
     .img-card {
-        width: 100%;
+        width: 337px;
     }
 }
