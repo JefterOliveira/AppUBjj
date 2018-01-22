@@ -21,6 +21,8 @@ import { MensagensPage } from '../pages/mensagens/mensagens';
 import { PerfilPage } from '../pages/perfil/perfil';
 import { InstituicaoPage } from '../pages/instituicao/instituicao';
 import { BuscaramigosPage } from '../pages/buscaramigos/buscaramigos';
+import { PerfilAmigosPage } from '../pages/perfil-amigos/perfil-amigos';
+import { PerfilAmigos_2Page } from '../pages/perfil-amigos-2/perfil-amigos-2';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,9 @@ import { BuscaramigosPage } from '../pages/buscaramigos/buscaramigos';
     MensagensPage,
     PerfilPage,
     InstituicaoPage,
-    BuscaramigosPage
+    BuscaramigosPage,
+    PerfilAmigosPage,
+    PerfilAmigos_2Page
   ],
   imports: [
     BrowserModule,
@@ -62,7 +66,9 @@ import { BuscaramigosPage } from '../pages/buscaramigos/buscaramigos';
     MensagensPage,
     PerfilPage,
     InstituicaoPage,
-    BuscaramigosPage
+    BuscaramigosPage,
+    PerfilAmigosPage,
+    PerfilAmigos_2Page
   ],
   providers: [
     StatusBar,

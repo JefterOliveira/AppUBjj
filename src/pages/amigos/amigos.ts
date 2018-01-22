@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ModalController } from 'ionic-angular';
+import { PerfilAmigosPage } from '../perfil-amigos/perfil-amigos';
+import { PerfilAmigos_2Page } from '../perfil-amigos-2/perfil-amigos-2';
 
 /**
  * Generated class for the AmigosPage page.
@@ -24,6 +26,12 @@ export class AmigosPage {
   openModal(){
     const modal= this.modalCtrl.create('ModalAddPage');
     modal.present();
+  }
+  EnterPageAmigo1(){
+    this.navCtrl.push(PerfilAmigosPage);
+  }
+  EnterPageAmigo2(){
+    this.navCtrl.push(PerfilAmigos_2Page);
   }
 
 }

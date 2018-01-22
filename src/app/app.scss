@@ -52,6 +52,9 @@
     position: absolute;
     z-index: -1;
 }
+button.btn-none {
+    display: none;
+}
 ion-content.content.content-ios {
     padding: 0;
     background-image: linear-gradient(to bottom, #9AD26F, #008CB7);

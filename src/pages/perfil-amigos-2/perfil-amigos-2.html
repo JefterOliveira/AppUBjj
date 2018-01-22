@@ -1,0 +1,93 @@
+<!--
+  Generated template for the PerfilAmigosPage page.
+  
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  
+  <ion-navbar>
+    <ion-title>Julia Canoa</ion-title>
+  </ion-navbar>
+  
+</ion-header>
+
+
+<ion-content>
+  <ion-grid>
+    <div class="info-user">
+      <ion-row class="alignCenter">      
+        <ion-col col-4 class="alignLeft">        
+          <img class="img-perfil" src="../../assets/imgs/amigo-2.png" alt="">
+        </ion-col>
+        <ion-col col-8>
+          <ion-row>
+            <ion-col class="icon-notification" col-4>
+              <ion-icon ios="ios-contacts-outline" md="md-contacts"></ion-icon>
+            </ion-col>
+            <ion-col class="icon-notification" col-4>
+              <ion-icon ios="ios-calendar-outline" md="md-calendar"></ion-icon>
+            </ion-col>
+            <ion-col class="icon-notification" col-4>
+              <ion-icon ios="ios-notifications-outline" md="md-notifications"></ion-icon>
+            </ion-col>
+            <ion-col col-12>
+              <button class="circle enter-login">editar perfil</button>
+            </ion-col>
+          </ion-row>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="status-perfil">
+          <p class="name-perfil">Julia Canoa</p>
+          <p>Associação Paulista KUBUDO de Jiu-Jitsu<br>
+            Faixa Amarela <br>
+            Treino Ju-Jitsu a pouco mais de 1 ano, e estou super empolgada!</p>
+          </ion-col>
+        </ion-row>
+      </div>
+      <div class="content-corpo">
+        <ion-row>
+          <ion-col>
+            <div class="card">
+              <div class="dia-evento">
+                <span class="destaque-dia">14 </span> <br>
+                ABR
+              </div>
+              <div class="info-evento">
+                <p> Rio de janeiro - RJ </p>
+                <h2>1° BootCamp de Ju-Jitsu</h2>
+                <p> inscritos <span class="inscritos">46</span></p> 
+              </div>
+            </div>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <div class="card">
+              <div class="dia-evento">
+                <span class="destaque-dia">28</span> <br>JUL
+              </div>
+              <div class="info-evento">
+                <p> São Paulo - SP </p>
+                <h2>Campeonato Metropolitano</h2>
+                <p> inscritos <span class="inscritos">28</span></p> 
+              </div>
+            </div>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <div class="add-recentemente">
+              ADICIONADOS RECENTEMENTE
+            </div>
+          </ion-col>
+        </ion-row>
+        <ion-row class="alignCenter">
+          <ion-col col-3><button id="btn-perfil" (click)="EnterPageAmigo1()"></button><label for="btn-perfil"><img class="img-circle" src="../../assets/imgs/amigo-3.png" alt=""></label></ion-col>
+          <ion-col col-3><img class="img-circle" src="../../assets/imgs/amigo-4.png" alt=""></ion-col>
+        </ion-row>
+      </div>
+    </ion-grid> 
+  </ion-content>
+  

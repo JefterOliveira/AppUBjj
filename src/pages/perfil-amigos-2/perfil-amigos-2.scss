@@ -1,4 +1,5 @@
-page-perfil {
+page-perfil-amigos-2 {
+    
     ion-grid.grid {
         padding: 0;
         background-image: linear-gradient(to bottom, #9AD26F, #008CB7);
@@ -21,11 +22,9 @@ page-perfil {
     ion-grid.grid {
         padding: 0;
     }
-    
     .content-corpo {
         padding:  5px;
     }
-    
     .info-user {
         background: rgba(255, 255, 255, 0.5);
         margin-bottom: 15px;
@@ -64,12 +63,12 @@ page-perfil {
     }
     .info-evento {
         width: 65%;
-        display: inline-block;
-        text-align: right;
+        display:  inline-block;
+        text-align:  right;
     }
     
     .dia-evento {
-        display: inline-block;
+        display:  inline-block;
     }
     
     .info-evento h2 {
@@ -92,5 +91,7 @@ page-perfil {
         font-size: 1.1em;
         margin-bottom: 15px;
     }
-   
+    button#btn-perfil {
+        display: none;
+    }    
 }
